@@ -12,6 +12,15 @@
 		001E420F1ACA932400745ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001E420E1ACA932400745ECF /* Images.xcassets */; };
 		001E42121ACA932400745ECF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001E42101ACA932400745ECF /* LaunchScreen.xib */; };
 		001E421E1ACA932400745ECF /* GetLocalPhoto01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E421D1ACA932400745ECF /* GetLocalPhoto01Tests.m */; };
+		001E422C1ACA937900745ECF /* LLLocalImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E422A1ACA937900745ECF /* LLLocalImageViewController.m */; };
+		001E422D1ACA937900745ECF /* LLLocalImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001E422B1ACA937900745ECF /* LLLocalImageViewController.xib */; };
+		001E42321ACA93F600745ECF /* LLLocalImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E42301ACA93F600745ECF /* LLLocalImageCollectionViewCell.m */; };
+		001E42331ACA93F600745ECF /* LLLocalImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001E42311ACA93F600745ECF /* LLLocalImageCollectionViewCell.xib */; };
+		001E42371ACA957E00745ECF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E42351ACA957E00745ECF /* MainViewController.m */; };
+		001E42381ACA957E00745ECF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001E42361ACA957E00745ECF /* MainViewController.xib */; };
+		001E423B1ACA9DCE00745ECF /* image_unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E42391ACA9DCE00745ECF /* image_unselect.png */; };
+		001E423C1ACA9DCE00745ECF /* image_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E423A1ACA9DCE00745ECF /* image_select.png */; };
+		001E423E1ACAA7AD00745ECF /* image_count_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E423D1ACAA7AD00745ECF /* image_count_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,18 @@
 		001E42171ACA932400745ECF /* GetLocalPhoto01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetLocalPhoto01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		001E421C1ACA932400745ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		001E421D1ACA932400745ECF /* GetLocalPhoto01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetLocalPhoto01Tests.m; sourceTree = "<group>"; };
+		001E42291ACA937900745ECF /* LLLocalImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLocalImageViewController.h; sourceTree = "<group>"; };
+		001E422A1ACA937900745ECF /* LLLocalImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLocalImageViewController.m; sourceTree = "<group>"; };
+		001E422B1ACA937900745ECF /* LLLocalImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLLocalImageViewController.xib; sourceTree = "<group>"; };
+		001E422F1ACA93F600745ECF /* LLLocalImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLocalImageCollectionViewCell.h; sourceTree = "<group>"; };
+		001E42301ACA93F600745ECF /* LLLocalImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLocalImageCollectionViewCell.m; sourceTree = "<group>"; };
+		001E42311ACA93F600745ECF /* LLLocalImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLLocalImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		001E42341ACA957E00745ECF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		001E42351ACA957E00745ECF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		001E42361ACA957E00745ECF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		001E42391ACA9DCE00745ECF /* image_unselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_unselect.png; sourceTree = "<group>"; };
+		001E423A1ACA9DCE00745ECF /* image_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_select.png; sourceTree = "<group>"; };
+		001E423D1ACAA7AD00745ECF /* image_count_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_count_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +97,15 @@
 		001E42061ACA932400745ECF /* GetLocalPhoto01 */ = {
 			isa = PBXGroup;
 			children = (
+				001E42281ACA934900745ECF /* LLLocalImage */,
 				001E420B1ACA932400745ECF /* AppDelegate.h */,
 				001E420C1ACA932400745ECF /* AppDelegate.m */,
 				001E420E1ACA932400745ECF /* Images.xcassets */,
 				001E42101ACA932400745ECF /* LaunchScreen.xib */,
 				001E42071ACA932400745ECF /* Supporting Files */,
+				001E42341ACA957E00745ECF /* MainViewController.h */,
+				001E42351ACA957E00745ECF /* MainViewController.m */,
+				001E42361ACA957E00745ECF /* MainViewController.xib */,
 			);
 			path = GetLocalPhoto01;
 			sourceTree = "<group>";
@@ -109,6 +134,30 @@
 				001E421C1ACA932400745ECF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		001E42281ACA934900745ECF /* LLLocalImage */ = {
+			isa = PBXGroup;
+			children = (
+				001E422E1ACA93D900745ECF /* Cell */,
+				001E42291ACA937900745ECF /* LLLocalImageViewController.h */,
+				001E422A1ACA937900745ECF /* LLLocalImageViewController.m */,
+				001E422B1ACA937900745ECF /* LLLocalImageViewController.xib */,
+			);
+			path = LLLocalImage;
+			sourceTree = "<group>";
+		};
+		001E422E1ACA93D900745ECF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				001E423D1ACAA7AD00745ECF /* image_count_bg.png */,
+				001E42391ACA9DCE00745ECF /* image_unselect.png */,
+				001E423A1ACA9DCE00745ECF /* image_select.png */,
+				001E422F1ACA93F600745ECF /* LLLocalImageCollectionViewCell.h */,
+				001E42301ACA93F600745ECF /* LLLocalImageCollectionViewCell.m */,
+				001E42311ACA93F600745ECF /* LLLocalImageCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001E423E1ACAA7AD00745ECF /* image_count_bg.png in Resources */,
+				001E42331ACA93F600745ECF /* LLLocalImageCollectionViewCell.xib in Resources */,
+				001E422D1ACA937900745ECF /* LLLocalImageViewController.xib in Resources */,
+				001E42381ACA957E00745ECF /* MainViewController.xib in Resources */,
+				001E423C1ACA9DCE00745ECF /* image_select.png in Resources */,
 				001E42121ACA932400745ECF /* LaunchScreen.xib in Resources */,
+				001E423B1ACA9DCE00745ECF /* image_unselect.png in Resources */,
 				001E420F1ACA932400745ECF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001E42321ACA93F600745ECF /* LLLocalImageCollectionViewCell.m in Sources */,
 				001E420D1ACA932400745ECF /* AppDelegate.m in Sources */,
 				001E420A1ACA932400745ECF /* main.m in Sources */,
+				001E42371ACA957E00745ECF /* MainViewController.m in Sources */,
+				001E422C1ACA937900745ECF /* LLLocalImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
