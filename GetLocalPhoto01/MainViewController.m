@@ -22,6 +22,8 @@
     
     localImageCtrl = [[LLLocalImageViewController alloc] init];
     localImageCtrl.delegate = self;
+    
+    //修改
 }
 
 - (IBAction)clickBtn:(id)sender
