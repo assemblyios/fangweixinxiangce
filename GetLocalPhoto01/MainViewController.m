@@ -33,6 +33,8 @@
 
 - (void)getSelectImage:(NSArray *)imageArr
 {
+    
+    //i konw
     imageView1.image = [UIImage imageNamed:@""];
     imageView2.image = [UIImage imageNamed:@""];
     imageView3.image = [UIImage imageNamed:@""];
